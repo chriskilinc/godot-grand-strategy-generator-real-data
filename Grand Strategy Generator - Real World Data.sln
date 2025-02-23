@@ -1,0 +1,19 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grand Strategy Generator - Real World Data", "Grand Strategy Generator - Real World Data.csproj", "{A3231C3A-19AF-4081-8CC9-3CFA77BBB5FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3231C3A-19AF-4081-8CC9-3CFA77BBB5FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3231C3A-19AF-4081-8CC9-3CFA77BBB5FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3231C3A-19AF-4081-8CC9-3CFA77BBB5FA}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{A3231C3A-19AF-4081-8CC9-3CFA77BBB5FA}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{A3231C3A-19AF-4081-8CC9-3CFA77BBB5FA}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{A3231C3A-19AF-4081-8CC9-3CFA77BBB5FA}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+EndGlobal
