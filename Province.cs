@@ -21,7 +21,7 @@ public partial class Province : Area2D
                         {
                             if (subnode is Polygon2D polygon)
                             {
-                                polygon.Modulate = new Color(1, 1, 1, 1);   //  TODO: Reset color to Country color
+                                polygon.Modulate = new Color(0, 0, 0, 0f);
                             }
                         }
                     }

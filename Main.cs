@@ -73,7 +73,7 @@ public partial class Main : Node2D
         Polygon2D polygon = new Polygon2D();
         polygon.Polygon = points.ToArray();
         polygon.Name = partid.ToString();
-        polygon.Modulate = new Color(1, 1, 1, 1);   // TOOD: Change to country color
+        polygon.Modulate = new Color(0, 0, 0, 0);
 
         CollisionPolygon2D collisionPolygon = new CollisionPolygon2D();
         collisionPolygon.Polygon = points.ToArray();
@@ -83,7 +83,7 @@ public partial class Main : Node2D
         line.Points = points.ToArray();
         line.Name = partid.ToString();
         line.Modulate = new Color(0, 0, 0, 0.5f);   // TOOD: Change to country border color 
-        line.Width = 0.3f;
+        line.Width = 0.35f;
         line.Closed = true;
 
         parentNode.AddChild(polygon);
