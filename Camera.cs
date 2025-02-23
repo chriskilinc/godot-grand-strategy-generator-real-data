@@ -38,14 +38,8 @@ public partial class Camera : Camera2D
 
     private void CameraMove(float delta)
     {
-        Vector2 velocityDirection = Vector2.Zero;
-
-        if (Input.IsActionPressed("camera_forward")) velocityDirection.Y -= 1;
-        if (Input.IsActionPressed("camera_backward")) velocityDirection.Y += 1;
-        if (Input.IsActionPressed("camera_right")) velocityDirection.X += 1;
-        if (Input.IsActionPressed("camera_left")) velocityDirection.X -= 1;
-
-        Position += velocityDirection.Normalized() * (cameraMoveSpeed / Zoom.X) * delta;
+        Vector2 direction = Input.GetVector("camera_left", "camera_right", "camera_up", "camera_down");
+        Position += direction * (cameraMoveSpeed / Zoom.X) * delta;
     }
 
     private void CameraPan(float delta)
