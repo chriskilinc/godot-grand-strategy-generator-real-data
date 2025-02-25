@@ -14,7 +14,7 @@ public partial class Camera : Camera2D
         float dt = (float)delta;
         CameraZoom(dt);
         CameraMove(dt);
-        CameraPan(dt);
+        // CameraPan(dt);
     }
 
     public override void _UnhandledInput(InputEvent @event)
